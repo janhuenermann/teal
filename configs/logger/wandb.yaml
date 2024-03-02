@@ -1,0 +1,4 @@
+_target_: teal.logging.WandbLogger
+
+project_name: "teal"
+log_dir: ${hydra:runtime.output_dir}/logs

@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /env: jumper
+  - override /agent: dreamer
+  - _self_
+
+logger:
+  project_name: dreamer
+
+# agent:
+#   gamma: 0.999

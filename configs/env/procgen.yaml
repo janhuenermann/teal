@@ -1,0 +1,3 @@
+_target_: teal.env.ProcgenEnv
+
+batch_size: 32

@@ -1,0 +1,14 @@
+_target_: teal.trainer.Trainer
+
+log_dir: ${hydra:runtime.output_dir}/logs
+
+defaults:
+  - _self_
+  - env: ???
+  - agent: ???
+  - logger: noop
+  - override hydra/hydra_logging: none
+  - override hydra/job_logging: none
+
+hydra:
+  verbose: true

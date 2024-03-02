@@ -1,0 +1,2 @@
+_target_: teal.agents.ppo.PPOAgent
+env_batch_size: "${..env.batch_size}"

@@ -1,0 +1,4 @@
+defaults:
+- procgen
+
+env_name: "jumper"
